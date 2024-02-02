@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 #define TCPC cout.tie(0), cin.tie(0), ios_base::sync_with_stdio(0);
-using namespace std;
+using namespace std ;
 #define int long long 
 #define Take(x) for ( auto & d : x ) cin >> d ; 
 #define Show(x) for ( auto & d : x ) cout << d << " " ; 
