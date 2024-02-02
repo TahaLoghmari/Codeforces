@@ -1,3 +1,18 @@
+#include <bits/stdc++.h>
+using namespace std;
+#define IWillWinTCPC cout.tie(0), cin.tie(0), ios_base::sync_with_stdio(0);
+#define int long long 
+#define Take(x) for ( auto & d : x ) cin >> d ; 
+#define No cout << "No" << endl  
+#define Yes cout << "Yes" << endl  
+#define Sort(x) sort( x.begin() , x.end() ) ;
+#define RSort(x) sort( x.begin() , x.end() ) ; reverse ( x.begin() , x.end() ) ; 
+#define MOD 998244353
+#define Sum(A) accumulate( A.begin() , A.end() , (int)0 ) 
+#define MAX LONG_LONG_MAX 
+#define MIN LONG_LONG_MIN 
+#define endl '\n' 
+#define isSorted(x) is_sorted(A.begin(),A.end())
 void augmentedBFS ( int src , int dest , vector<vector<int>>& Graph , vector<int>& dist , vector<bool>& Visited )  
 {
     queue<int> q ; 
