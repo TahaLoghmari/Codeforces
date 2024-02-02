@@ -1,5 +1,5 @@
 #include <bits/stdc++.h>
-using namespace std;
+using namespace std ;
 #define IWillWinTCPC cout.tie(0), cin.tie(0), ios_base::sync_with_stdio(0);
 #define int long long 
 #define Take(x) for ( auto & d : x ) cin >> d ; 
