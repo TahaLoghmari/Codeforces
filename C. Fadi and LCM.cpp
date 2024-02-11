@@ -24,11 +24,7 @@ void solve()
 {
     ll x ; cin >> x ; 
     ll Min = MAX , a = 0 , b = 0;
-    if ( x == 1 ) 
-    {
-        cout << 1 << " " << 1 << endl ; return;
-    }
-    for ( ll i = 1 ; i * i < x ; ++i )
+    for ( ll i = 1 ; i * i <= x ; ++i )
     {
         if ( x % i == 0 ) 
         {
@@ -37,7 +33,6 @@ void solve()
                 Min = max ( i , x/i )  ;
                 a = i ; b = x / i ; 
             }   
-            
         }
     }
     cout << a << " " << b << endl ; 
