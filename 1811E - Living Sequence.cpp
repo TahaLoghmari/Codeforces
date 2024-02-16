@@ -27,7 +27,7 @@ void solve()
     string Res = "";
     while ( n )
     {
-        Res += char( (n % 9) + '0' ) ;
+        Res += to_string(n % 9) ;
         n /= 9 ; 
     }
     for ( int i = 0 ; i < Res.size() ; ++i ) if ( Res[i] >= '4' ) Res[i]++;
