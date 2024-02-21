@@ -18,7 +18,7 @@ void solve()
 {
     ll n , x , p ; cin >> n >> x >> p ;
     ll Needed = n - x , Num = 1 ; 
-    for ( int i = 2 ; Num <= (n*1e6) ; ++i )
+    for ( int i = 2 ; i <= n * 2 ; ++i )
     {
         if ( ((Num-Needed) %  n == 0 || Num == Needed) && Num <= (p*(p+1)/2))
         {
